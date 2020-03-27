@@ -5,6 +5,7 @@ from datetime import datetime as dt
   
 # Selecione o diretório hosts de sua máquina
 #hosts_path = "C:\Windows\System32\drivers\etc\hosts"
+#hosts_path = "/etc/hosts"
 hosts_path = str(input("Digite o caminho do diretório: "))
 # IP Local
 redirect = "127.0.0.1"
